@@ -1,8 +1,14 @@
 # Todo Client — Angular
 
-Frontend client for a full-stack Todo application built with Angular.
+Frontend client for a simple full-stack Todo CRUD application built with Angular.
 
-This repository is the client-side application for the Java Spring Boot Todo API.
+The purpose of this project is to demonstrate that I can build and connect a frontend and backend application from scratch, send HTTP requests between the two applications, and handle a basic CRUD-style application flow.
+
+The application does **not** use a real database. Todo data is sourced from JSONPlaceholder for demonstration purposes.
+
+## AI note
+
+The application code was written from scratch without AI assistance. The only AI-generated content in this repository is this README.
 
 ## Connected backend
 
@@ -36,6 +42,9 @@ http://localhost:4200
         v
 Spring Boot Todo API
 http://localhost:8080/api/v1/todos
+        |
+        v
+JSONPlaceholder Todo Data
 ```
 
 ## Related project
