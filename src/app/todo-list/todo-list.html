@@ -1,0 +1,9 @@
+<p>ToDo List</p>
+
+
+    @for (todo of todos; track todo){
+    <li>{{todo.title}}</li>
+  } @empty {
+    <li>there are no todos</li>
+  }
+
